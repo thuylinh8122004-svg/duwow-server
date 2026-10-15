@@ -1,0 +1,9 @@
+{
+  "name": "duwow-server",
+  "version": "1.0.0",
+  "description": "ĐỦ WOW CHƯA - web đặt đồ uống (Node.js + SQLite, mô hình MVC)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test test/api.test.js" },
+  "engines": { "node": ">=22.13" },
+  "dependencies": { "express": "^4.21.2" }
+}
